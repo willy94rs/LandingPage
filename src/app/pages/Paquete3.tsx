@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import { Play, Star } from 'lucide-react';
 
 // INSTRUCCIONES PARA AGREGAR TUS VIDEOS:
@@ -79,6 +80,8 @@ export function Paquete3() {
     },
   ];
 
+  const [playingVideo, setPlayingVideo] = useState<number | null>(null);
+
   return (
     <div className="py-20 px-6">
       <div className="max-w-7xl mx-auto">
@@ -126,59 +129,49 @@ export function Paquete3() {
           <h2 className="text-3xl font-bold mb-8">Portafolio - Paquete Premium</h2>
           <div className="grid md:grid-cols-4 gap-6">
             {videos.map((videoItem) => (
-              <div key={videoItem.id} className="group relative aspect-[9/16] bg-gradient-to-br from-purple-900/30 to-pink-900/30 rounded-xl overflow-hidden border border-purple-500/30 hover:border-purple-400/70 transition-all cursor-pointer">
-                {/* Video de fondo (si existe) */}
-                {videoItem.video && (
-                  <video
-                    src={videoItem.video}
-                    className="absolute inset-0 w-full h-full object-cover z-0"
-                    muted
-                    loop
-                    playsInline
-                    controls
-                    onMouseEnter={(e) => e.currentTarget.play()}
-                    onMouseLeave={(e) => {
-                      e.currentTarget.pause();
-                      e.currentTarget.currentTime = 0;
-                    }}
-                  />
-                )}
+              <div key={videoItem.id} className="space-y-3">
+                <div className="group relative aspect-[9/16] bg-gradient-to-br from-purple-900/30 to-pink-900/30 rounded-xl overflow-hidden border border-purple-500/30 hover:border-purple-400/70 transition-all cursor-pointer pointer-events-none">
+                  {videoItem.video && (
+                    <video
+                      src={videoItem.video}
+                      className="absolute inset-0 w-full h-full object-cover z-0 pointer-events-auto"
+                      muted
+                      loop
+                      playsInline
+                      controls
+                      onPlay={() => setPlayingVideo(videoItem.id)}
+                      onPause={() => setPlayingVideo(null)}
+                      onEnded={() => setPlayingVideo(null)}
+                    />
+                  )}
 
-                <div className="absolute inset-0 z-10 bg-gradient-to-t from-slate-950 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none"></div>
-
-                {/* Glow Effect */}
-                <div className="absolute inset-0 z-10 bg-gradient-to-br from-purple-500/10 to-pink-500/10 opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none"></div>
-
-                {/* Play Button */}
-                <div className="absolute inset-0 z-20 flex items-center justify-center pointer-events-none">
-                  <div className="w-16 h-16 bg-gradient-to-br from-purple-600 to-pink-600 rounded-full flex items-center justify-center group-hover:from-purple-500 group-hover:to-pink-500 transition-all group-hover:scale-110 shadow-lg shadow-purple-500/50">
-                    <Play className="w-8 h-8 ml-1" fill="currentColor" />
-                  </div>
-                </div>
-
-                {/* Video Number (solo se muestra si no hay video) */}
-                {!videoItem.video && (
-                  <div className="absolute inset-0 flex items-center justify-center">
-                    <div className="text-6xl font-bold text-purple-500/20 group-hover:text-purple-500/30 transition-colors">
-                      {videoItem.id}
+                  {playingVideo !== videoItem.id && (
+                    <div className="absolute inset-0 z-20 flex items-center justify-center pointer-events-none">
+                      <div className="w-16 h-16 bg-gradient-to-br from-purple-600 to-pink-600 rounded-full flex items-center justify-center shadow-lg shadow-purple-500/50">
+                        <Play className="w-8 h-8 ml-1" fill="currentColor" />
+                      </div>
                     </div>
+                  )}
+
+                  {!videoItem.video && (
+                    <div className="absolute inset-0 flex items-center justify-center">
+                      <div className="text-6xl font-bold text-purple-500/20 group-hover:text-purple-500/30 transition-colors">
+                        {videoItem.id}
+                      </div>
+                    </div>
+                  )}
+
+                  <div className="absolute top-4 right-4 bg-slate-950/80 backdrop-blur px-3 py-1 rounded-full text-sm pointer-events-none">
+                    Video {videoItem.id}
                   </div>
-                )}
 
-                {/* Video Number Badge */}
-                <div className="absolute top-4 right-4 bg-slate-950/80 backdrop-blur px-3 py-1 rounded-full text-sm">
-                  Video {videoItem.id}
+                  <div className="absolute top-4 left-4 bg-gradient-to-r from-purple-600 to-pink-600 backdrop-blur px-3 py-1 rounded-full text-xs font-bold flex items-center gap-1 shadow-lg pointer-events-none">
+                    <Star className="w-3 h-3" fill="currentColor" />
+                    PREMIUM
+                  </div>
                 </div>
-
-                {/* Premium Badge */}
-                <div className="absolute top-4 left-4 bg-gradient-to-r from-purple-600 to-pink-600 backdrop-blur px-3 py-1 rounded-full text-xs font-bold flex items-center gap-1 shadow-lg">
-                  <Star className="w-3 h-3" fill="currentColor" />
-                  PREMIUM
-                </div>
-
-                {/* Video Info */}
-                <div className="absolute bottom-0 left-0 right-0 p-4 transform translate-y-full group-hover:translate-y-0 transition-transform">
-                  <h4 className="text-sm font-bold mb-1">{videoItem.title}</h4>
+                <div className="mt-3 text-left">
+                  <h4 className="text-sm font-bold mb-1 text-white">{videoItem.title}</h4>
                   <p className="text-xs text-gray-400">{videoItem.description}</p>
                 </div>
               </div>
