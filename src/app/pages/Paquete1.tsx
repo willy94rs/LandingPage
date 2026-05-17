@@ -23,7 +23,7 @@ export function Paquete1() {
     },
     {
       id: 2,
-      // video: video2,
+      video: 'https://drive.google.com/file/d/1-f7LJwQy0wSFM85aMrpZfFWTkHTXCe0J/preview',
       title: 'Proyecto Básico 2',
       description: 'Edición · 2-3 min'
     },
