@@ -10,7 +10,7 @@ import { Play } from "lucide-react";
 import video1 from '../../assets/videos/paquete1/video1.mp4';
 // import video2 from '../../assets/videos/paquete1/video2.mp4';
 // import video3 from '../../assets/videos/paquete1/video3.mp4';
-// ... agrega más según necesites.
+// ... agrega más según necesites
 
 export function Paquete1() {
   // Array con la información de tus videos
@@ -21,15 +21,15 @@ export function Paquete1() {
       title: 'Proyecto Básico 1',
       description: 'Edición · 2-3 min'
     },
-    {
+        {
       id: 2,
-      video: "https://drive.google.com/file/d/1-f7LJwQy0wSFM85aMrpZfFWTkHTXCe0J/view?usp=sharing",
+      video: 'https://wmuwhkibsngbjlkkhxay.supabase.co/storage/v1/object/public/Implant28Eastward1/video3.mp4',
       title: 'Proyecto Básico 2',
       description: 'Edición · 2-3 min'
-    },
+        },
     {
       id: 3,
-      // video: video3,
+      //video: video3,
       title: 'Proyecto Básico 3',
       description: 'Edición · 2-3 min'
     },
