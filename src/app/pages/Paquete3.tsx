@@ -135,6 +135,7 @@ export function Paquete3() {
                     muted
                     loop
                     playsInline
+                    controls
                     onMouseEnter={(e) => e.currentTarget.play()}
                     onMouseLeave={(e) => {
                       e.currentTarget.pause();
