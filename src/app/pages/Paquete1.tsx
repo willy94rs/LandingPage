@@ -10,7 +10,7 @@ import { Play } from "lucide-react";
 import video1 from '../../assets/videos/paquete1/video1.mp4';
 // import video2 from '../../assets/videos/paquete1/video2.mp4';
 // import video3 from '../../assets/videos/paquete1/video3.mp4';
-// ... agrega más según necesites
+// ... agrega más según necesites.
 
 export function Paquete1() {
   // Array con la información de tus videos
