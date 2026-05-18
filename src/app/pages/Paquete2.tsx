@@ -17,7 +17,7 @@ export function Paquete2() {
   const videos = [
     {
       id: 1,
-      // video: video1, // Descomenta cuando tengas el video
+      video: 'https://wmuwhkibsngbjlkkhxay.supabase.co/storage/v1/object/public/Implant28Eastward1/2pro1.mp4',
       title: 'Proyecto Pro 1',
       description: 'Edición Avanzada · 3-5 min'
     },
