@@ -24,8 +24,7 @@ export function Paquete1() {
         {
       id: 2,
       video: 'https://wmuwhkibsngbjlkkhxay.supabase.co/storage/v1/object/public/Implant28Eastward1/video3.mp4',
-      title: 'Proyecto Básico 2',
-      description: 'Edición · 2-3 min'
+      title: 'Video Básico 2'
         },
     {
       id: 3,
@@ -212,9 +211,14 @@ export function Paquete1() {
                   </span>
                 </li>
               </ul>
-              <button className="w-full bg-slate-800 hover:bg-slate-700 py-3 rounded-lg transition-all">
+              <a
+                href="https://api.whatsapp.com/send?phone=+584221234567&text=Hola,%20me%20gustar%C3%ADa%20adquirir%20el%20paquete%20basico%20con%20el%20plan%20Individual%20que%20incluye%201%20video%20por%20el%20precio%20de%20$10"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full bg-slate-800 hover:bg-slate-500 py-3 rounded-lg transition-all font-bold block text-center"
+              >
                 Comenzar
-              </button>
+              </a>
             </div>
 
             {/* Plan 2 - Popular */}
@@ -256,7 +260,7 @@ export function Paquete1() {
                 </li>
               </ul>
               <a
-                href="https://wa.me/+584221234567?text=Hola,%20me%20gustar%C3%ADa%20adquirir%20el%20plan%20Est%C3%A1ndar%20que%20incluye%204%20videos%20por%20el%20precio%20de%20$36"
+                href="https://api.whatsapp.com/send?phone=+584221234567&text=Hola,%20me%20gustar%C3%ADa%20adquirir%20el%20paquete%20basico%20con%20el%20plan%20Est%C3%A1ndar%20que%20incluye%204%20videos%20por%20el%20precio%20de%20$36"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full bg-blue-600 hover:bg-blue-700 py-3 rounded-lg transition-all font-bold block text-center"
@@ -302,9 +306,14 @@ export function Paquete1() {
                   </span>
                 </li>
               </ul>
-              <button className="w-full bg-slate-800 hover:bg-slate-700 py-3 rounded-lg transition-all">
+              <a
+                href="https://api.whatsapp.com/send?phone=+584221234567&text=Hola,%20me%20gustar%C3%ADa%20adquirir%20el%20paquete%20basico%20con%20el%20plan%20Avanzado%20que%20incluye%208%20videos%20por%20el%20precio%20de%20$64"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full bg-slate-800 hover:bg-slate-500 py-3 rounded-lg transition-all font-bold block text-center"
+              >
                 Comenzar
-              </button>
+              </a>
             </div>
           </div>
         </div>

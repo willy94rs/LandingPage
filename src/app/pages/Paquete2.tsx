@@ -23,7 +23,7 @@ export function Paquete2() {
     },
     {
       id: 2,
-      // video: video2,
+      video: 'https://wmuwhkibsngbjlkkhxay.supabase.co/storage/v1/object/public/Implant28Eastward1/2pro2.mp4',
       title: 'Proyecto Pro 2',
       description: 'Edición Avanzada · 3-5 min'
     },
@@ -214,9 +214,14 @@ export function Paquete2() {
                   <span className="text-gray-300">Entrega en 1 día</span>
                 </li>
               </ul>
-              <button className="w-full bg-slate-800 hover:bg-slate-700 py-3 rounded-lg transition-all">
+              <a
+                href="https://api.whatsapp.com/send?phone=+584221234567&text=Hola,%20me%20gustar%C3%ADa%20adquirir%20el%20paquete%20profesional%20con%20el%20plan%20Pro%20Individual%20que%20incluye%201%20video%20por%20el%20precio%20de%20$16"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full bg-slate-800 hover:bg-slate-500 py-3 rounded-lg transition-all font-bold block text-center"
+              >
                 Comenzar
-              </button>
+              </a>
             </div>
 
             {/* Plan 2 - Popular */}
@@ -249,9 +254,14 @@ export function Paquete2() {
                   <span className="text-gray-300">Entrega en 3 días</span>
                 </li>
               </ul>
-              <button className="w-full bg-purple-600 hover:bg-purple-700 py-3 rounded-lg transition-all font-bold">
+              <a
+                href="https://api.whatsapp.com/send?phone=+584221234567&text=Hola,%20me%20gustar%C3%ADa%20adquirir%20el%20paquete%20profesional%20con%20el%20plan%20Pro%20Estandar%20que%20incluye%204%20videos%20por%20el%20precio%20de%20$60"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full bg-purple-600 hover:bg-purple-700 py-3 rounded-lg transition-all font-bold block text-center"
+              >
                 Comenzar
-              </button>
+              </a>
             </div>
 
             {/* Plan 3 */}
@@ -281,9 +291,14 @@ export function Paquete2() {
                   <span className="text-gray-300">Entrega en 5 días</span>
                 </li>                              
               </ul>
-              <button className="w-full bg-slate-800 hover:bg-slate-700 py-3 rounded-lg transition-all">
+              <a
+                href="https://api.whatsapp.com/send?phone=+584221234567&text=Hola,%20me%20gustar%C3%ADa%20adquirir%20el%20paquete%20profesional%20con%20el%20plan%20Pro%20Avanzado%20que%20incluye%208%20videos%20por%20el%20precio%20de%20$112"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full bg-slate-800 hover:bg-slate-500 py-3 rounded-lg transition-all font-bold block text-center"
+              >
                 Comenzar
-              </button>
+              </a>
             </div>
           </div>
         </div>

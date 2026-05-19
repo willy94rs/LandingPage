@@ -210,9 +210,14 @@ export function Paquete3() {
                   <span className="text-gray-300">Entrega en 1 día</span>
                 </li>                
               </ul>
-              <button className="w-full bg-slate-800 hover:bg-slate-700 py-3 rounded-lg transition-all">
+              <a
+                href="https://api.whatsapp.com/send?phone=+584221234567&text=Hola,%20me%20gustar%C3%ADa%20adquirir%20el%20paquete%20premium%20con%20el%20plan%20Premium%20Individual%20que%20incluye%201%20video%20por%20el%20precio%20de%20$22"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full bg-slate-800 hover:bg-slate-500 py-3 rounded-lg transition-all font-bold block text-center"
+              >
                 Comenzar
-              </button>
+              </a>
             </div>
 
             {/* Plan 2 - Popular */}
@@ -246,9 +251,14 @@ export function Paquete3() {
                   <span className="text-gray-300">Entrega en 3 días</span>
                 </li>                
               </ul>
-              <button className="w-full bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 py-3 rounded-lg transition-all font-bold shadow-lg shadow-purple-500/50">
+              <a
+                href="https://api.whatsapp.com/send?phone=+584221234567&text=Hola,%20me%20gustar%C3%ADa%20adquirir%20el%20paquete%20premium%20con%20el%20plan%20Premium%20Estandar%20que%20incluye%204%20videos%20por%20el%20precio%20de%20$84"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 py-3 rounded-lg transition-all font-bold shadow-lg shadow-purple-500/50 text-center block"
+              >
                 Comenzar
-              </button>
+              </a>
             </div>
 
             {/* Plan 3 */}
@@ -278,9 +288,14 @@ export function Paquete3() {
                   <span className="text-gray-300">Entrega en 5 días</span>
                 </li>                            
               </ul>
-              <button className="w-full bg-slate-800 hover:bg-slate-700 py-3 rounded-lg transition-all">
+              <a
+                href="https://api.whatsapp.com/send?phone=+584227201467&text=Hola,%20me%20gustar%C3%ADa%20adquirir%20el%20paquete%20premium%20con%20el%20plan%20Premium%20Avanzado%20que%20incluye%208%20videos%20por%20el%20precio%20de%20$160"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full bg-slate-800 hover:bg-slate-500 py-3 rounded-lg transition-all font-bold block text-center"
+              >
                 Comenzar
-              </button>
+              </a>
             </div>
           </div>
         </div>
