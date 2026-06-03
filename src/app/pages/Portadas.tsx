@@ -5,8 +5,8 @@
 
 // Ejemplo de imports (descomenta y ajusta según tus archivos):
 import portada1 from '../../assets/portadas/portada1.jpeg';
-import portada2 from '../../assets/portadas/portada2.png';
-import portada3 from '../../assets/portadas/portada3.png';
+//import portada2 from '../../assets/portadas/portada2.png';
+//import portada3 from '../../assets/portadas/portada3.png';
 // ... agrega más según necesites
 
 export function Portadas() {
