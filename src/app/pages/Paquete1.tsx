@@ -34,28 +34,31 @@ export function Paquete1() {
     },
     {
       id: 4,
+      video: 'https://wmuwhkibsngbjlkkhxay.supabase.co/storage/v1/object/public/Implant28Eastward1/1ba4.mp4',
       title: 'Proyecto Básico 4',
-      description: 'Edición · 2-3 min'
+      //description: 'Edición · 2-3 min'
     },
     {
       id: 5,
       title: 'Proyecto Básico 5',
-      description: 'Edición · 2-3 min'
+      video: 'https://wmuwhkibsngbjlkkhxay.supabase.co/storage/v1/object/public/Implant28Eastward1/1ba5.mp4',
+      //description: 'Edición · 2-3 min'
     },
     {
       id: 6,
       title: 'Proyecto Básico 6',
-      description: 'Edición · 2-3 min'
+      //description: 'Edición · 2-3 min'
     },
     {
       id: 7,
       title: 'Proyecto Básico 7',
-      description: 'Edición · 2-3 min'
+      video: 'https://wmuwhkibsngbjlkkhxay.supabase.co/storage/v1/object/public/Implant28Eastward1/1ba7.mp4',
+      //description: 'Edición · 2-3 min'
     },
     {
       id: 8,
       title: 'Proyecto Básico 8',
-      description: 'Edición · 2-3 min'
+      //description: 'Edición · 2-3 min'
     },
   ];
 
