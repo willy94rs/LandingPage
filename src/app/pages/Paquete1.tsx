@@ -7,7 +7,9 @@ import { Play } from "lucide-react";
 // 3. Actualiza el array 'videos' con la información de cada uno
 
 // Ejemplo de imports (descomenta y ajusta según tus archivos):
-import video1 from '../../assets/videos/paquete1/video1.mp4';
+import video4 from '../../assets/videos/paquete1/1ba4.mp4';
+import video6 from '../../assets/videos/paquete1/1ba6.mp4';
+import video8 from '../../assets/videos/paquete1/1ba8.mp4';
 // import video2 from '../../assets/videos/paquete1/video2.mp4';
 // import video3 from '../../assets/videos/paquete1/video3.mp4';
 // ... agrega más según necesites
@@ -34,7 +36,7 @@ export function Paquete1() {
     },
     {
       id: 4,
-      video: 'https://wmuwhkibsngbjlkkhxay.supabase.co/storage/v1/object/public/Implant28Eastward1/1ba4.mp4',
+      video: video4,
       title: 'Proyecto Básico 4',
       //description: 'Edición · 2-3 min'
     },
@@ -47,6 +49,7 @@ export function Paquete1() {
     {
       id: 6,
       title: 'Proyecto Básico 6',
+      video: video6,
       //description: 'Edición · 2-3 min'
     },
     {
@@ -58,6 +61,7 @@ export function Paquete1() {
     {
       id: 8,
       title: 'Proyecto Básico 8',
+      video: video8,
       //description: 'Edición · 2-3 min'
     },
   ];

@@ -7,8 +7,8 @@ import { Play } from 'lucide-react';
 // 3. Actualiza el array 'videos' con la información de cada uno
 
 // Ejemplo de imports (descomenta y ajusta según tus archivos):
-// import video1 from '../../assets/videos/paquete2/video1.mp4';
-// import video2 from '../../assets/videos/paquete2/video2.mp4';
+import video5 from '../../assets/videos/paquete2/2pro5.mp4';
+import video8 from '../../assets/videos/paquete2/2pro8.mp4';
 // import video3 from '../../assets/videos/paquete2/video3.mp4';
 // ... agrega más según necesites
 
@@ -29,55 +29,40 @@ export function Paquete2() {
     },
     {
       id: 3,
-      // video: video3,
+      video: 'https://wmuwhkibsngbjlkkhxay.supabase.co/storage/v1/object/public/Implant28Eastward1/2pro3.mp4',
       title: 'Proyecto Pro 3',
       description: 'Edición Avanzada · 3-5 min'
     },
     {
       id: 4,
+      video: 'https://wmuwhkibsngbjlkkhxay.supabase.co/storage/v1/object/public/Implant28Eastward1/2pro4.mp4',
       title: 'Proyecto Pro 4',
       description: 'Edición Avanzada · 3-5 min'
     },
     {
       id: 5,
+      video: video5,
       title: 'Proyecto Pro 5',
       description: 'Edición Avanzada · 3-5 min'
     },
     {
       id: 6,
+      video:'https://wmuwhkibsngbjlkkhxay.supabase.co/storage/v1/object/public/Implant28Eastward1/2pro6.mp4',
       title: 'Proyecto Pro 6',
       description: 'Edición Avanzada · 3-5 min'
     },
     {
       id: 7,
       title: 'Proyecto Pro 7',
+      video: 'https://wmuwhkibsngbjlkkhxay.supabase.co/storage/v1/object/public/Implant28Eastward1/2pro7.mp4',
       description: 'Edición Avanzada · 3-5 min'
     },
     {
       id: 8,
       title: 'Proyecto Pro 8',
+      video: video8,
       description: 'Edición Avanzada · 3-5 min'
-    },
-    {
-      id: 9,
-      title: 'Proyecto Pro 9',
-      description: 'Edición Avanzada · 3-5 min'
-    },
-    {
-      id: 10,
-      title: 'Proyecto Pro 10',
-      description: 'Edición Avanzada · 3-5 min'
-    },
-    {
-      id: 11,
-      title: 'Proyecto Pro 11',
-      description: 'Edición Avanzada · 3-5 min'
-    },
-    {
-      id: 12,
-      title: 'Proyecto Pro 12',
-      description: 'Edición Avanzada · 3-5 min'
-    },
+    }
   ];
 
   const [playingVideo, setPlayingVideo] = useState<number | null>(null);
@@ -165,7 +150,7 @@ export function Paquete2() {
                 )}
 
                 {/* Video Number Badge */}
-                <div className="absolute top-4 right-4 bg-slate-950/80 backdrop-blur px-3 py-1 rounded-full text-sm pointer-events-none">
+                {/* <div className="absolute top-4 right-4 bg-slate-950/80 backdrop-blur px-3 py-1 rounded-full text-sm pointer-events-none">
                   Video {videoItem.id}
                 </div>
 

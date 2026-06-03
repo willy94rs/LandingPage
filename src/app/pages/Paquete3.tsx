@@ -7,9 +7,10 @@ import { Play, Star } from 'lucide-react';
 // 3. Actualiza el array 'videos' con la información de cada uno
 
 // Ejemplo de imports (descomenta y ajusta según tus archivos):
-// import video1 from '../../assets/videos/paquete3/video1.mp4';
-// import video2 from '../../assets/videos/paquete3/video2.mp4';
-// import video3 from '../../assets/videos/paquete3/video3.mp4';
+import video3 from '../../assets/videos/paquete3/3pre3.mp4';
+import video5 from '../../assets/videos/paquete3/3pre5.mp4';
+import video7 from '../../assets/videos/paquete3/3pre7.mp4';
+import video8 from '../../assets/videos/paquete3/3pre8.mp4';
 // ... agrega más según necesites
 
 export function Paquete3() {
@@ -17,67 +18,52 @@ export function Paquete3() {
   const videos = [
     {
       id: 1,
-      // video: video1, // Descomenta cuando tengas el video
+      video: 'https://wmuwhkibsngbjlkkhxay.supabase.co/storage/v1/object/public/Implant28Eastward1/3pre1.mp4',
       title: 'Proyecto Premium 1',
       description: 'Producción Completa · 5-10 min'
     },
     {
       id: 2,
-      // video: video2,
+      video: 'https://wmuwhkibsngbjlkkhxay.supabase.co/storage/v1/object/public/Implant28Eastward1/3pre2.mp4',
       title: 'Proyecto Premium 2',
       description: 'Producción Completa · 5-10 min'
     },
     {
       id: 3,
-      // video: video3,
+      video: video3,
       title: 'Proyecto Premium 3',
       description: 'Producción Completa · 5-10 min'
     },
     {
       id: 4,
       title: 'Proyecto Premium 4',
+      video: 'https://wmuwhkibsngbjlkkhxay.supabase.co/storage/v1/object/public/Implant28Eastward1/3pre4.mp4',
       description: 'Producción Completa · 5-10 min'
     },
     {
       id: 5,
+      video: video5,
       title: 'Proyecto Premium 5',
       description: 'Producción Completa · 5-10 min'
     },
     {
       id: 6,
       title: 'Proyecto Premium 6',
+      video: 'https://wmuwhkibsngbjlkkhxay.supabase.co/storage/v1/object/public/Implant28Eastward1/3pre6.mp4',
       description: 'Producción Completa · 5-10 min'
     },
     {
       id: 7,
+      video: video7,
       title: 'Proyecto Premium 7',
       description: 'Producción Completa · 5-10 min'
     },
     {
       id: 8,
+      video: video8,
       title: 'Proyecto Premium 8',
       description: 'Producción Completa · 5-10 min'
-    },
-    {
-      id: 9,
-      title: 'Proyecto Premium 9',
-      description: 'Producción Completa · 5-10 min'
-    },
-    {
-      id: 10,
-      title: 'Proyecto Premium 10',
-      description: 'Producción Completa · 5-10 min'
-    },
-    {
-      id: 11,
-      title: 'Proyecto Premium 11',
-      description: 'Producción Completa · 5-10 min'
-    },
-    {
-      id: 12,
-      title: 'Proyecto Premium 12',
-      description: 'Producción Completa · 5-10 min'
-    },
+    }
   ];
 
   const [playingVideo, setPlayingVideo] = useState<number | null>(null);
@@ -161,9 +147,7 @@ export function Paquete3() {
                     </div>
                   )}
 
-                  <div className="absolute top-4 right-4 bg-slate-950/80 backdrop-blur px-3 py-1 rounded-full text-sm pointer-events-none">
-                    Video {videoItem.id}
-                  </div>
+                  
 
                   <div className="absolute top-4 left-4 bg-gradient-to-r from-purple-600 to-pink-600 backdrop-blur px-3 py-1 rounded-full text-xs font-bold flex items-center gap-1 shadow-lg pointer-events-none">
                     <Star className="w-3 h-3" fill="currentColor" />
