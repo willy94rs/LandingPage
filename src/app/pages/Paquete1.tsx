@@ -17,20 +17,20 @@ export function Paquete1() {
   const videos = [
     {
       id: 1,
-      video: video1, // Descomenta cuando tengas el video
+      video: 'https://wmuwhkibsngbjlkkhxay.supabase.co/storage/v1/object/public/Implant28Eastward1/1ba1.mp4',
       title: 'Proyecto Básico 1',
-      description: 'Edición · 2-3 min'
+      //description: 'Edición · 2-3 min'
     },
         {
       id: 2,
-      video: 'https://wmuwhkibsngbjlkkhxay.supabase.co/storage/v1/object/public/Implant28Eastward1/video3.mp4',
+      video: 'https://wmuwhkibsngbjlkkhxay.supabase.co/storage/v1/object/public/Implant28Eastward1/1ba2.mp4',
       title: 'Video Básico 2'
         },
     {
       id: 3,
-      //video: video3,
+      video: 'https://wmuwhkibsngbjlkkhxay.supabase.co/storage/v1/object/public/Implant28Eastward1/1ba3.mp4',
       title: 'Proyecto Básico 3',
-      description: 'Edición · 2-3 min'
+      //description: 'Edición · 2-3 min'
     },
     {
       id: 4,
