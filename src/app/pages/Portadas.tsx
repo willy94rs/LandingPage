@@ -20,7 +20,7 @@ export function Portadas() {
     },
     {
       id: 2,
-      //image: portada2,
+      image: portada2,
       title: 'Portada 2',
       description: 'Diseño de miniatura profesional'
     },

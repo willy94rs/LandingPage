@@ -7,60 +7,57 @@ import { Play } from 'lucide-react';
 // 3. Actualiza el array 'videos' con la información de cada uno
 
 // Ejemplo de imports (descomenta y ajusta según tus archivos):
-import video5 from '../../assets/videos/paquete2/2pro5.mp4';
-import video8 from '../../assets/videos/paquete2/2pro8.mp4';
-// import video3 from '../../assets/videos/paquete2/video3.mp4';
-// ... agrega más según necesites
+//import video5 from '../../assets/videos/paquete2/2pro5.mp4';
 
 export function Paquete2() {
   // Array con la información de tus videos
   const videos = [
     {
       id: 1,
-      video: 'https://wmuwhkibsngbjlkkhxay.supabase.co/storage/v1/object/public/Implant28Eastward1/2pro1.mp4',
+      video: 'https://res.cloudinary.com/dw9sqnrcr/video/upload/v1780530161/2pro1_drhojw.mp4',
       title: 'Proyecto Pro 1',
       description: 'Edición Avanzada · 3-5 min'
     },
     {
       id: 2,
-      video: 'https://wmuwhkibsngbjlkkhxay.supabase.co/storage/v1/object/public/Implant28Eastward1/2pro2.mp4',
+      video: 'https://res.cloudinary.com/dw9sqnrcr/video/upload/v1780530176/2pro2_uhpp6t.mp4',
       title: 'Proyecto Pro 2',
       description: 'Edición Avanzada · 3-5 min'
     },
     {
       id: 3,
-      video: 'https://wmuwhkibsngbjlkkhxay.supabase.co/storage/v1/object/public/Implant28Eastward1/2pro3.mp4',
+      video: 'https://res.cloudinary.com/dw9sqnrcr/video/upload/v1780530166/2pro3_o7fakl.mp4',
       title: 'Proyecto Pro 3',
       description: 'Edición Avanzada · 3-5 min'
     },
     {
       id: 4,
-      video: 'https://wmuwhkibsngbjlkkhxay.supabase.co/storage/v1/object/public/Implant28Eastward1/2pro4.mp4',
+      video: 'https://res.cloudinary.com/dw9sqnrcr/video/upload/v1780530167/2pro4_w6z8vi.mp4',
       title: 'Proyecto Pro 4',
       description: 'Edición Avanzada · 3-5 min'
     },
     {
       id: 5,
-      video: video5,
+      video: 'https://res.cloudinary.com/dw9sqnrcr/video/upload/v1780530174/2pro5_vrkvo6.mp4',
       title: 'Proyecto Pro 5',
       description: 'Edición Avanzada · 3-5 min'
     },
     {
       id: 6,
-      video:'https://wmuwhkibsngbjlkkhxay.supabase.co/storage/v1/object/public/Implant28Eastward1/2pro6.mp4',
+      video:'https://res.cloudinary.com/dw9sqnrcr/video/upload/v1780530168/2pro6_wgmnr3.mp4',
       title: 'Proyecto Pro 6',
       description: 'Edición Avanzada · 3-5 min'
     },
     {
       id: 7,
       title: 'Proyecto Pro 7',
-      video: 'https://wmuwhkibsngbjlkkhxay.supabase.co/storage/v1/object/public/Implant28Eastward1/2pro7.mp4',
+      video: 'https://res.cloudinary.com/dw9sqnrcr/video/upload/v1780530161/2pro7_c30mnt.mp4',
       description: 'Edición Avanzada · 3-5 min'
     },
     {
       id: 8,
       title: 'Proyecto Pro 8',
-      video: video8,
+      //video: video8,
       description: 'Edición Avanzada · 3-5 min'
     }
   ];
