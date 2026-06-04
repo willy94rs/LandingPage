@@ -57,7 +57,7 @@ export function Paquete2() {
     {
       id: 8,
       title: 'Proyecto Pro 8',
-      //video: video8,
+      video: 'https://res.cloudinary.com/dw9sqnrcr/video/upload/v1780608826/2pro8_dupigs.mp4',
       description: 'Edición Avanzada · 3-5 min'
     }
   ];
