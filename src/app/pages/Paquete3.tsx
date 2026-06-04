@@ -41,6 +41,7 @@ export function Paquete3() {
       id: 5,
       //video: video5,
       title: 'Proyecto Premium 5',
+      video: 'https://res.cloudinary.com/dw9sqnrcr/video/upload/v1780608356/3pre5_qgsbrl.mp4',
       description: 'Producción Completa · 5-10 min'
     },
     {
