@@ -6,7 +6,7 @@
 // Ejemplo de imports (descomenta y ajusta según tus archivos):
 import portada1 from '../../assets/portadas/portada1.png';
 import portada2 from '../../assets/portadas/portada2.png';
-//import portada3 from '../../assets/portadas/portada3.png';
+import portada3 from '../../assets/portadas/portada3.png';
 // ... agrega más según necesites
 
 export function Portadas() {
@@ -26,7 +26,7 @@ export function Portadas() {
     },
     {
       id: 3,
-      //image: portada3,
+      image: portada3,
       title: 'Portada 3',
       description: 'Diseño de miniatura profesional'
     },
