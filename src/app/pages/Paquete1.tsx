@@ -15,50 +15,43 @@ export function Paquete1() {
   const videos = [
     {
       id: 1,
-      video: 'https://wmuwhkibsngbjlkkhxay.supabase.co/storage/v1/object/public/Implant28Eastward1/1ba1.mp4',
-      title: 'Proyecto Básico 1',
-      //description: 'Edición · 2-3 min'
+      video: 'https://wmuwhkibsngbjlkkhxay.supabase.co/storage/v1/object/public/Implant28Eastward1/1ba1.mp4'
+      
     },
         {
       id: 2,
-      video: 'https://wmuwhkibsngbjlkkhxay.supabase.co/storage/v1/object/public/Implant28Eastward1/1ba2.mp4',
-      title: 'Video Básico 2'
+      video: 'https://wmuwhkibsngbjlkkhxay.supabase.co/storage/v1/object/public/Implant28Eastward1/1ba2.mp4'
+      
         },
     {
       id: 3,
-      video: 'https://wmuwhkibsngbjlkkhxay.supabase.co/storage/v1/object/public/Implant28Eastward1/1ba3.mp4',
-      title: 'Proyecto Básico 3',
-      //description: 'Edición · 2-3 min'
+      video: 'https://wmuwhkibsngbjlkkhxay.supabase.co/storage/v1/object/public/Implant28Eastward1/1ba3.mp4'
+    
     },
     {
       id: 4,
-      video: 'https://res.cloudinary.com/dw9sqnrcr/video/upload/v1780528741/1ba4_cbmigp.mp4',
-      title: 'Proyecto Básico 4',
-      //description: 'Edición · 2-3 min'
+      video: 'https://res.cloudinary.com/dw9sqnrcr/video/upload/v1780528741/1ba4_cbmigp.mp4'
+
     },
     {
       id: 5,
-      title: 'Proyecto Básico 5',
       video: 'https://wmuwhkibsngbjlkkhxay.supabase.co/storage/v1/object/public/Implant28Eastward1/1ba5.mp4',
-      //description: 'Edición · 2-3 min'
+      
     },
     {
       id: 6,
-      title: 'Proyecto Básico 6',
-      video: 'https://res.cloudinary.com/dw9sqnrcr/video/upload/v1780528920/1ba6_pqh1lr.mp4',
+      video: 'https://res.cloudinary.com/dw9sqnrcr/video/upload/v1780528920/1ba6_pqh1lr.mp4'
       //description: 'Edición · 2-3 min'
+      //title: 'Proyecto Básico 6',
     },
     {
       id: 7,
-      title: 'Proyecto Básico 7',
-      video: 'https://wmuwhkibsngbjlkkhxay.supabase.co/storage/v1/object/public/Implant28Eastward1/1ba7.mp4',
-      //description: 'Edición · 2-3 min'
+      video: 'https://wmuwhkibsngbjlkkhxay.supabase.co/storage/v1/object/public/Implant28Eastward1/1ba7.mp4'
+      
     },
     {
       id: 8,
-      title: 'Proyecto Básico 8',
-      video: 'https://res.cloudinary.com/dw9sqnrcr/video/upload/v1780529910/1ba8_cxm5ka.mp4',
-      //description: 'Edición · 2-3 min'
+      video: 'https://res.cloudinary.com/dw9sqnrcr/video/upload/v1780529910/1ba8_cxm5ka.mp4'
     }
   ];
 
@@ -73,8 +66,10 @@ export function Paquete1() {
             Paquete 1 - Básico
           </h1>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Edición de video fundamental perfecta para contenido
-            de redes sociales, vlogs y proyectos personales
+            Edición de video fundamental perfecta para contenido 
+          </p>
+          <p className="text-xl text-gray-300 max-w-3xl mx-auto">
+            de redes sociales, vlogs y proyectos personales.
           </p>
         </div>
 
@@ -84,16 +79,16 @@ export function Paquete1() {
             {
               title: "Corte y Edición",
               description:
-                "Edición básica de clips con transiciones suaves",
+                "Edición básica de clips con transiciones suaves.",
             },
             {
               title: "Audio Básico",
-              description: "Musica de fondo sin copyright",
+              description: "Musica de fondo sin copyright.",
             },
             
             {
               title: "Revisiones",
-              description: "Hasta 2 revisiones por video",
+              description: "Hasta 2 revisiones por video.",
             },
           ].map((item, index) => (
             <div

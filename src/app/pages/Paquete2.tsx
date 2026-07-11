@@ -14,51 +14,38 @@ export function Paquete2() {
   const videos = [
     {
       id: 1,
-      video: 'https://res.cloudinary.com/dw9sqnrcr/video/upload/v1780530161/2pro1_drhojw.mp4',
-      title: 'Proyecto Pro 1',
-      description: 'Edición Avanzada · 3-5 min'
+      video: 'https://res.cloudinary.com/dw9sqnrcr/video/upload/v1780530161/2pro1_drhojw.mp4'
+      
     },
     {
       id: 2,
-      video: 'https://res.cloudinary.com/dw9sqnrcr/video/upload/v1780530176/2pro2_uhpp6t.mp4',
-      title: 'Proyecto Pro 2',
-      description: 'Edición Avanzada · 3-5 min'
+      video: 'https://res.cloudinary.com/dw9sqnrcr/video/upload/v1780530176/2pro2_uhpp6t.mp4'
     },
     {
       id: 3,
-      video: 'https://res.cloudinary.com/dw9sqnrcr/video/upload/v1780530166/2pro3_o7fakl.mp4',
-      title: 'Proyecto Pro 3',
-      description: 'Edición Avanzada · 3-5 min'
+      video: 'https://res.cloudinary.com/dw9sqnrcr/video/upload/v1780530166/2pro3_o7fakl.mp4'
     },
     {
       id: 4,
-      video: 'https://res.cloudinary.com/dw9sqnrcr/video/upload/v1780530167/2pro4_w6z8vi.mp4',
-      title: 'Proyecto Pro 4',
-      description: 'Edición Avanzada · 3-5 min'
+      video: 'https://res.cloudinary.com/dw9sqnrcr/video/upload/v1780530167/2pro4_w6z8vi.mp4'
+    
     },
     {
       id: 5,
-      video: 'https://res.cloudinary.com/dw9sqnrcr/video/upload/v1780530174/2pro5_vrkvo6.mp4',
-      title: 'Proyecto Pro 5',
-      description: 'Edición Avanzada · 3-5 min'
+      video: 'https://res.cloudinary.com/dw9sqnrcr/video/upload/v1780530174/2pro5_vrkvo6.mp4'
     },
     {
       id: 6,
-      video:'https://res.cloudinary.com/dw9sqnrcr/video/upload/v1780530168/2pro6_wgmnr3.mp4',
-      title: 'Proyecto Pro 6',
-      description: 'Edición Avanzada · 3-5 min'
+      video:'https://res.cloudinary.com/dw9sqnrcr/video/upload/v1780530168/2pro6_wgmnr3.mp4'
+  
     },
     {
       id: 7,
-      title: 'Proyecto Pro 7',
-      video: 'https://res.cloudinary.com/dw9sqnrcr/video/upload/v1780530161/2pro7_c30mnt.mp4',
-      description: 'Edición Avanzada · 3-5 min'
+      video: 'https://res.cloudinary.com/dw9sqnrcr/video/upload/v1780530161/2pro7_c30mnt.mp4'
     },
     {
       id: 8,
-      title: 'Proyecto Pro 8',
-      video: 'https://res.cloudinary.com/dw9sqnrcr/video/upload/v1780608826/2pro8_dupigs.mp4',
-      description: 'Edición Avanzada · 3-5 min'
+      video: 'https://res.cloudinary.com/dw9sqnrcr/video/upload/v1780608826/2pro8_dupigs.mp4'
     }
   ];
 
@@ -73,7 +60,10 @@ export function Paquete2() {
             Paquete 2 - Profesional
           </h1>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Edición avanzada con efectos visuales y postproducción de alta calidad para proyectos comerciales (Incluye tambien todo del paquete basico).
+            Edición avanzada con efectos visuales de alta calidad.
+          </p>
+          <p className="text-xl text-gray-300 max-w-3xl mx-auto">
+            para proyectos comerciales o personales (Incluye tambien todo del paquete basico).
           </p>
         </div>
 
@@ -86,8 +76,8 @@ export function Paquete2() {
               features: ['Sincronización multicámara', 'Ajuste de brillos o sombras', 'Transiciones suaves','Subtitulos']
             },
             {
-              title: 'Audio Pro',
-              description: 'Mezcla de audio y sonidos.',
+              title: 'Audio',
+              description: 'Audio y sonidos.',
               features: ['Música sin copyright', 'Efectos de sonido']
             }
           ].map((item, index) => (

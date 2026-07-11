@@ -66,9 +66,10 @@ export function Portadas() {
             Portadas
           </h1>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Diseño de miniaturas y portadas profesionales que
-            capturan la atención y aumentan el CTR de tus videos
-            en tus redes sociales
+            Diseño de miniaturas y portadas profesionales 
+          </p>
+          <p className="text-xl text-gray-300 max-w-3xl mx-auto">
+            que capturan la atención y aumentan el CTR de tus videos en tus redes sociales. 
           </p>
         </div>
 

@@ -81,7 +81,7 @@ export function Layout() {
             Portfolio
           </div>
           <p className="text-gray-400 mb-6">Edición profesional de video</p>
-          <p className="text-sm text-gray-500">&copy; 2026 Todos los derechos reservados</p>
+          <p className="text-sm text-gray-500">&copy; Willy's Studio 2026 Todos los derechos reservados</p>
         </div>
       </footer>
     </div>

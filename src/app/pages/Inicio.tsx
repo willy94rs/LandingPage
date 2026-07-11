@@ -32,7 +32,7 @@ export function Inicio() {
               <div className="bg-slate-900/50 backdrop-blur border border-blue-900/30 rounded-xl p-8 hover:border-blue-500/50 transition-all h-full">
                 
                 <h3 className="text-2xl font-bold mb-3">Paquete Básico</h3>
-                <p className="text-gray-400 mb-4">Edición de video fundamental para proyectos esenciales</p>
+                <p className="text-gray-400 mb-4">Edición de video fundamental para pequeños proyectos</p>
                 <div className="text-blue-400 flex items-center gap-2 group-hover:gap-3 transition-all">
                   Ver más <ChevronRight className="w-4 h-4" />
                 </div>
@@ -43,7 +43,7 @@ export function Inicio() {
               <div className="bg-slate-900/50 backdrop-blur border border-blue-900/30 rounded-xl p-8 hover:border-blue-500/50 transition-all h-full">
                 
                 <h3 className="text-2xl font-bold mb-3">Paquete Profesional</h3>
-                <p className="text-gray-400 mb-4">Edición avanzada con efectos y postproducción completa</p>
+                <p className="text-gray-400 mb-4">Edición avanzada completa con efectos y subtitulos</p>
                 <div className="text-blue-400 flex items-center gap-2 group-hover:gap-3 transition-all">
                   Ver más <ChevronRight className="w-4 h-4" />
                 </div>
@@ -54,7 +54,7 @@ export function Inicio() {
               <div className="bg-slate-900/50 backdrop-blur border border-blue-900/30 rounded-xl p-8 hover:border-blue-500/50 transition-all h-full">
                 
                 <h3 className="text-2xl font-bold mb-3">Paquete Premium</h3>
-                <p className="text-gray-400 mb-4">Producción cinematográfica completa y efectos especiales</p>
+                <p className="text-gray-400 mb-4">Edición completa con todo lo que necesitas para tus videos</p>
                 <div className="text-blue-400 flex items-center gap-2 group-hover:gap-3 transition-all">
                   Ver más <ChevronRight className="w-4 h-4" />
                 </div>
@@ -69,7 +69,7 @@ export function Inicio() {
         <div className="max-w-7xl mx-auto">
           <div className="grid md:grid-cols-4 gap-8">
             {[
-              { number: '500+', label: 'Videos Editados' },
+              { number: '1000+', label: 'Videos Editados' },
               { number: '100+', label: 'Clientes Satisfechos' },
               { number: '5+', label: 'Años de Experiencia' },
               { number: '50+', label: 'Proyectos Premium' }

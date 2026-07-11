@@ -15,52 +15,36 @@ export function Paquete3() {
   const videos = [
     {
       id: 1,
-      video: 'https://res.cloudinary.com/dw9sqnrcr/video/upload/v1780531708/3pre1_d3szga.mp4',
-      title: 'Proyecto Premium 1',
-      description: 'Producción Completa · 5-10 min'
+      video: 'https://res.cloudinary.com/dw9sqnrcr/video/upload/v1780531708/3pre1_d3szga.mp4'
     },
     {
       id: 2,
-      video: 'https://res.cloudinary.com/dw9sqnrcr/video/upload/v1780531698/3pre2_wuaahx.mp4',
-      title: 'Proyecto Premium 2',
-      description: 'Producción Completa · 5-10 min'
+      video: 'https://res.cloudinary.com/dw9sqnrcr/video/upload/v1780531698/3pre2_wuaahx.mp4'
     },
     {
       id: 3,
-      video: 'https://res.cloudinary.com/dw9sqnrcr/video/upload/v1780531706/3pre3_cec0s2.mp4',
-      title: 'Proyecto Premium 3',
-      description: 'Producción Completa · 5-10 min'
+      video: 'https://res.cloudinary.com/dw9sqnrcr/video/upload/v1780531706/3pre3_cec0s2.mp4'
     },
     {
-      id: 4,
-      title: 'Proyecto Premium 4',
+      id: 4,    
       video: 'https://res.cloudinary.com/dw9sqnrcr/video/upload/v1780531718/3pre4_xudubf.mp4',
-      description: 'Producción Completa · 5-10 min'
     },
     {
       id: 5,
-      //video: video5,
-      title: 'Proyecto Premium 5',
-      video: 'https://res.cloudinary.com/dw9sqnrcr/video/upload/v1780608356/3pre5_qgsbrl.mp4',
-      description: 'Producción Completa · 5-10 min'
+      video: 'https://res.cloudinary.com/dw9sqnrcr/video/upload/v1780608356/3pre5_qgsbrl.mp4'
+      //video: video5,      
     },
     {
       id: 6,
-      title: 'Proyecto Premium 6',
-      video: 'https://res.cloudinary.com/dw9sqnrcr/video/upload/v1780531712/3pre6_l6iifb.mp4',
-      description: 'Producción Completa · 5-10 min'
+      video: 'https://res.cloudinary.com/dw9sqnrcr/video/upload/v1780531712/3pre6_l6iifb.mp4'
     },
     {
       id: 7,
-      video: 'https://res.cloudinary.com/dw9sqnrcr/video/upload/v1780531710/3pre8_gmpmbt.mp4',
-      title: 'Proyecto Premium 7',
-      description: 'Producción Completa · 5-10 min'
+      video: 'https://res.cloudinary.com/dw9sqnrcr/video/upload/v1780531710/3pre8_gmpmbt.mp4'
     },
     {
       id: 8,
-      video: 'https://res.cloudinary.com/dw9sqnrcr/video/upload/v1780531730/3pre7_uauy88.mp4',
-      title: 'Proyecto Premium 8',
-      description: 'Producción Completa · 5-10 min'
+      video: 'https://res.cloudinary.com/dw9sqnrcr/video/upload/v1780531730/3pre7_uauy88.mp4'      
     }
   ];
 
@@ -79,15 +63,22 @@ export function Paquete3() {
             Paquete 3 - Premium
           </h1>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Producción completa con efectos visuales , subtitulos dinamicos, transiciones suaves, motion graphics basico y videos stocks complementarios (Incluye tambien todo del paquete profesional).
+            Edición completa con efectos visuales , subtitulos dinamicos,
           </p>
+          <p className="text-xl text-gray-300 max-w-3xl mx-auto">
+            transiciones suaves, motion graphics basico y videos stocks complementarios.
+          </p>
+          <p className="text-xl text-gray-300 max-w-3xl mx-auto">
+            (Incluye tambien todo del paquete profesional).
+          </p>
+          
         </div>
 
         {/* Premium Features */}
         <div className="bg-gradient-to-br from-blue-950 via-purple-950 to-slate-900 border border-blue-500/50 rounded-2xl p-8 md:p-12 mb-20">
           <div className="text-center mb-12">
             <h3 className="text-3xl font-bold mb-4">Solución Completa</h3>
-            <p className="text-xl text-gray-300">Todo lo que necesitas para producción de nivel cinematográfico</p>
+            <p className="text-xl text-gray-300">Todo lo que necesitas para que tus viedos sean dinamicos y de alta calidad</p>
           </div>
           <div className="grid md:grid-cols-3 gap-6">
             {[

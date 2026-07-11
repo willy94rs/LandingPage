@@ -8,11 +8,14 @@ export function Otros() {
             Otros Servicios
           </h1>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Servicios adicionales especializados para complementar tus proyectos audiovisuales
+            Servicios adicionales especializados para complementar tus proyectos
+          </p>
+          <p className="text-xl text-gray-300 max-w-3xl mx-auto">
+            asegurando resultados profesionales y de alta calidad.
           </p>
         </div>
 
-        {/* Services Grid */}
+        {/* Services Grid 
         <div className="grid md:grid-cols-2 gap-8 mb-20">
           {[
             {
@@ -48,36 +51,30 @@ export function Otros() {
             </div>
           ))}
         </div>
+      */}
 
         {/* Additional Services */}
         <div>
           <h2 className="text-3xl font-bold mb-8">Servicios Especializados</h2>
-          <div className="grid md:grid-cols-3 gap-6">
+          <div className="grid md:grid-cols-2 gap-6">
             {[
               {
                 title: 'Edición de Podcasts',
-                description: 'Edición profesional de audio y video para podcasts'
+                description: 'Edición profesional de audio y video para podcasts.'
+              },
+        
+              {
+                title: 'Edición de Videos Corporativo',
+                description: 'Edición de videos institucionales y corporativos.'
               },
               {
-                title: 'Contenido para Redes',
-                description: 'Videos cortos optimizados para TikTok, Reels e Instagram'
+                title: 'Edición de VideoTutoriales',
+                description: 'Edición de videos tutoriales.'
               },
               {
-                title: 'Video Corporativo',
-                description: 'Producción de videos institucionales y corporativos'
+                title: 'Edición de Eventos Especiales',
+                description: 'Edición de eventos especiales'
               },
-              {
-                title: 'Tutoriales',
-                description: 'Videos educativos con animaciones explicativas'
-              },
-              {
-                title: 'Eventos',
-                description: 'Cobertura y edición de eventos especiales'
-              },
-              {
-                title: 'Testimoniales',
-                description: 'Videos de clientes con entrevistas profesionales'
-              }
             ].map((service, index) => (
               <div key={index} className="bg-slate-900/50 backdrop-blur border border-blue-900/30 rounded-xl p-6 hover:border-blue-500/50 transition-all">
                 <div className="w-12 h-12 bg-blue-600/20 rounded-lg flex items-center justify-center mb-4">
