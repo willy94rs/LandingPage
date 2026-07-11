@@ -17,7 +17,7 @@ function figmaAssetResolver() {
 }
 
 export default defineConfig({
-  base: process.env.NODE_ENV === 'production' ? '/LandingPage/' : '/',
+  base: process.env.NODE_ENV === 'production' ? '/WillysStudio/' : '/',
   plugins: [
     figmaAssetResolver(),
     // The React and Tailwind plugins are both required for Make, even if
