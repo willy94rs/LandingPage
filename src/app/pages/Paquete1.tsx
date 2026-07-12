@@ -1,5 +1,3 @@
-import { useState } from "react";
-import { Play } from "lucide-react";
 
 // INSTRUCCIONES PARA AGREGAR TUS VIDEOS:
 // 1. Coloca tus videos en: src/assets/videos/paquete1/
@@ -15,17 +13,17 @@ export function Paquete1() {
   const videos = [
     {
       id: 1,
-      video: 'https://wmuwhkibsngbjlkkhxay.supabase.co/storage/v1/object/public/Implant28Eastward1/1ba1.mp4'
+      video: 'https://res.cloudinary.com/dw9sqnrcr/video/upload/v1780529121/1ba1_iu3zhm.mp4'
       
     },
         {
       id: 2,
-      video: 'https://wmuwhkibsngbjlkkhxay.supabase.co/storage/v1/object/public/Implant28Eastward1/1ba2.mp4'
+      video: 'https://res.cloudinary.com/dw9sqnrcr/video/upload/v1780529201/1ba2_exf6bi.mp4'
       
         },
     {
       id: 3,
-      video: 'https://wmuwhkibsngbjlkkhxay.supabase.co/storage/v1/object/public/Implant28Eastward1/1ba3.mp4'
+      video: 'https://res.cloudinary.com/dw9sqnrcr/video/upload/v1780529146/1ba3_y0mart.mp4'
     
     },
     {
@@ -35,7 +33,7 @@ export function Paquete1() {
     },
     {
       id: 5,
-      video: 'https://wmuwhkibsngbjlkkhxay.supabase.co/storage/v1/object/public/Implant28Eastward1/1ba5.mp4',
+      video: 'https://res.cloudinary.com/dw9sqnrcr/video/upload/v1780529306/1ba5_oaxxst.mp4',
       
     },
     {
@@ -46,7 +44,7 @@ export function Paquete1() {
     },
     {
       id: 7,
-      video: 'https://wmuwhkibsngbjlkkhxay.supabase.co/storage/v1/object/public/Implant28Eastward1/1ba7.mp4'
+      video: 'https://res.cloudinary.com/dw9sqnrcr/video/upload/v1780529354/1ba7_ijbqke.mp4'
       
     },
     {
@@ -55,7 +53,6 @@ export function Paquete1() {
     }
   ];
 
-  const [playingVideo, setPlayingVideo] = useState<number | null>(null);
 
   return (
     <div className="py-20 px-6">
@@ -126,9 +123,6 @@ export function Paquete1() {
                     loop
                     playsInline
                     controls
-                    onPlay={() => setPlayingVideo(videoItem.id)}
-                    onPause={() => setPlayingVideo(null)}
-                    onEnded={() => setPlayingVideo(null)}
                   />
                 )}
 
