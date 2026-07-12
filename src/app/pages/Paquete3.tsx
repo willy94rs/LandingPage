@@ -120,14 +120,6 @@ export function Paquete3() {
                     />
                   )}
 
-                  {playingVideo !== videoItem.id && (
-                    <div className="absolute inset-0 z-20 flex items-center justify-center pointer-events-none">
-                      <div className="w-16 h-16 bg-gradient-to-br from-purple-600 to-pink-600 rounded-full flex items-center justify-center shadow-lg shadow-purple-500/50">
-                        <Play className="w-8 h-8 ml-1" fill="currentColor" />
-                      </div>
-                    </div>
-                  )}
-
                   {!videoItem.video && (
                     <div className="absolute inset-0 flex items-center justify-center">
                       <div className="text-6xl font-bold text-purple-500/20 group-hover:text-purple-500/30 transition-colors">

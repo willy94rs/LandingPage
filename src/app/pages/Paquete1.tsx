@@ -132,18 +132,6 @@ export function Paquete1() {
                   />
                 )}
 
-                {/* Play Button */}
-                {playingVideo !== videoItem.id && (
-                  <div className="absolute inset-0 z-20 flex items-center justify-center pointer-events-none">
-                    <div className="w-16 h-16 bg-blue-600/80 rounded-full flex items-center justify-center">
-                      <Play
-                        className="w-8 h-8 ml-1"
-                        fill="currentColor"
-                      />
-                    </div>
-                  </div>
-                )}
-
                 {/* Video Number (solo se muestra si no hay video) */}
                 {!videoItem.video && (
                   <div className="absolute inset-0 flex items-center justify-center">
@@ -170,7 +158,7 @@ export function Paquete1() {
         {/* Pricing Cards */}
         <div>
           <h2 className="text-3xl font-bold mb-12 text-center">
-            Elige tu plan
+            Planes basicos
           </h2>
           <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
             {/* Plan 1 */}
